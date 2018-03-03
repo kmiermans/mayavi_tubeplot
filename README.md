@@ -15,8 +15,14 @@ X = TubePlot(coordinates, color_scheme='light')
 X.draw_all()
 mlab.show()
 ```
-and you're done! Possibly, you might wish to save the 3d model to inspect later. In that case you would simple add the line
-``` X.engine.save_visualization('my_first_3d_model.mv2') ``` after ``` X.draw_all() ```.
+and you're done! 
+
+Possibly, you might wish to save the 3d model to inspect later. In that case you would simple add the line
+``` X.engine.save_visualization('my_first_3d_model.mv2') ``` after ``` X.draw_all() ```.  To then view the 3d models, load the model using:
+```
+from mayavi.api import Engine
+Engine().load_visualization('path/to/model.mv2')
+```
 
 ## Installation
 Installing Mayavi2 can be difficult due to its dependencies. Especially installing VTK can be rather tricky, and is not for the faint hearted. Personally, I would strongly recommend downloading the free (for non-commercial use) **Enthought Suite** (http://code.enthought.com/). Mayavi2 is maintained by Enthought, and therefore the Enthought suite offers a ready-to-use Python development environment that comes with its own copy of VTK and Mayavi. For more information, see http://docs.enthought.com/mayavi/mayavi/installation.html.
