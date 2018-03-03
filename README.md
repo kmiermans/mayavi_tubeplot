@@ -1,4 +1,7 @@
 # mayavi_tubeplot
+
+![example image](https://github.com/kmiermans/mayavi_tubeplot/blob/master/snapshot.png)
+
 ## Summary
 This class makes a pretty 3d visualization of a polymer using Mayavi2 (Mayavi2 is a free, open-source 3d plotting package based on VTK)
 This class was e.g. used in Miermans&Broedersz, 2018 (in preparation).
