@@ -21,3 +21,8 @@ and you're done! Possibly, you might wish to save the 3d model to inspect later.
 ## Installation
 Installing Mayavi2 can be difficult due to its dependencies. Especially installing VTK can be rather tricky, and is not for the faint hearted. Personally, I would strongly recommend downloading the free (for non-commercial use) **Enthought Suite** (http://code.enthought.com/). Mayavi2 is maintained by Enthought, and therefore the Enthought suite offers a ready-to-use Python development environment that comes with its own copy of VTK and Mayavi. For more information, see http://docs.enthought.com/mayavi/mayavi/installation.html.
 
+## Dependencies
+- Mayavi
+- VTK
+- numpy
+- scipy
